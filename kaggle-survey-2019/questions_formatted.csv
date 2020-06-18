@@ -1,0 +1,35 @@
+Time from Start to Finish (seconds),Duration (in seconds)
+Q1,What is your age (# years)?
+Q2,What is your gender? - Selected Choice
+Q3,In which country do you currently reside?
+Q4,What is the highest level of formal education that you have attained or plan to attain within the next 2 years?
+Q5,Select the title most similar to your current role (or most recent title if retired): - Selected Choice
+Q6,What is the size of the company where you are employed?
+Q7,Approximately how many individuals are responsible for data science workloads at your place of business?
+Q8,Does your current employer incorporate machine learning methods into their business?
+Q9,Select any activities that make up an important part of your role at work: (Select all that apply) - Selected Choice
+Q10,What is your current yearly compensation (approximate $USD)?
+Q11,Approximately how much money have you spent on machine learning and/or cloud computing products at your work in the past 5 years?
+Q12,Who/what are your favorite media sources that report on data science topics? (Select all that apply) - Selected Choice
+Q13,On which platforms have you begun or completed data science courses? (Select all that apply) - Selected Choice
+Q14,What is the primary tool that you use at work or school to analyze data? (Include text response) - Selected Choice
+Q15,How long have you been writing code to analyze data (at work or at school)?
+Q16,Which of the following integrated development environments (IDE's) do you use on a regular basis?  (Select all that apply) - Selected Choice
+Q17,Which of the following hosted notebook products do you use on a regular basis?  (Select all that apply) - Selected Choice
+Q18,What programming languages do you use on a regular basis? (Select all that apply) - Selected Choice
+Q19,What programming language would you recommend an aspiring data scientist to learn first? - Selected Choice
+Q20,What data visualization libraries or tools do you use on a regular basis?  (Select all that apply) - Selected Choice
+Q21,Which types of specialized hardware do you use on a regular basis?  (Select all that apply) - Selected Choice
+Q22,Have you ever used a TPU (tensor processing unit)?
+Q23,For how many years have you used machine learning methods?
+Q24,Which of the following ML algorithms do you use on a regular basis? (Select all that apply): - Selected Choice
+Q25,Which categories of ML tools do you use on a regular basis?  (Select all that apply) - Selected Choice
+Q26,Which categories of computer vision methods do you use on a regular basis?  (Select all that apply) - Selected Choice
+Q27,Which of the following natural language processing (NLP) methods do you use on a regular basis?  (Select all that apply) - Selected Choice
+Q28,Which of the following machine learning frameworks do you use on a regular basis? (Select all that apply) - Selected Choice
+Q29,Which of the following cloud computing platforms do you use on a regular basis? (Select all that apply) - Selected Choice
+Q30,Which specific cloud computing products do you use on a regular basis? (Select all that apply) - Selected Choice
+Q31,Which specific big data / analytics products do you use on a regular basis? (Select all that apply) - Selected Choice
+Q32,Which of the following machine learning products do you use on a regular basis? (Select all that apply) - Selected Choice
+Q33,Which automated machine learning tools (or partial AutoML tools) do you use on a regular basis?  (Select all that apply) - Selected Choice
+Q34,Which of the following relational database products do you use on a regular basis? (Select all that apply) - Selected Choice
