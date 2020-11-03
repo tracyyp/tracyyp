@@ -7,6 +7,7 @@ Created on Fri Oct 30 19:58:33 2020
 
 import pandas as pd
 import json
+import time
 
 def load_invoice_data(filepath):
     """
@@ -41,13 +42,13 @@ def load_suppliers_data(filepath):
 
     Returns
     -------
-    supplier_names : list
+    supplier_names : set
 
     """       
     # Reading data from suppliernames.txt to a pandas DataFrame and turn its 2nd
     # column (contains supplier names) to a list
     suppliers = pd.read_csv(filepath)
-    supplier_names = suppliers['SupplierName'].to_list()
+    supplier_names = set(suppliers['SupplierName'])
     return supplier_names
 
 def find_supplier_name(invoice, supplier_names):
@@ -57,7 +58,7 @@ def find_supplier_name(invoice, supplier_names):
     ----------
     invoice : DataFrame
         output of the load_invoice_data function.
-    supplier_names : list
+    supplier_names : set
         output of the load_suppliers_data function.
 
     Returns
@@ -101,7 +102,10 @@ def find_supplier_name(invoice, supplier_names):
 if __name__ == '__main__':
     invoice = load_invoice_data(r"C:\Users\Piao Ye\github_repos\tracyyp\Xtracta_exercise\invoice.txt")
     supplier_names = load_suppliers_data(r"C:\Users\Piao Ye\github_repos\tracyyp\Xtracta_exercise\suppliernames.txt")
+    start = time.time()
     supplier_names_to_find = find_supplier_name(invoice, supplier_names)
+    end = time.time()
+    print("The runtime of the search process is {} seconds".format(end-start))
     # Print the supplier name(s) found in the given invoice               
     print("Supplier names found in the invoice are:", supplier_names_to_find)
        
